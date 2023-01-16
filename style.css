@@ -1,0 +1,42 @@
+.main-container {
+    border-left: 50px solid #024554;
+    border-radius: 10px;
+    max-width: 1100px;
+}
+
+.container-border-reduis {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bg-gris {
+    background-color: #6A8C69;
+}
+
+.bg-test{
+    background-color: #C2C0A6;
+}
+
+.title-color {
+    color: #012E40;
+}
+
+a {
+    color: black;
+}
+.section-animation {
+    padding-block: 7px;
+    transform: scale(1);
+    transition-property: "transform";
+    transition-duration: 0.3s;
+}
+
+.section-animation:hover {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+    transition-property: "transform";
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
