@@ -40,3 +40,11 @@ a {
     transition-duration: 0.3s;
     transition-delay: 0.3s;
 }
+
+@page {
+    margin: 0px;
+}
+
+@media print {
+    
+}
